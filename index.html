@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Canvas</title>
+    </head>
+    <body>
+        <header>
+            <h1>Canvas</h1>
+        </header>
+        <div id="controls">
+            <label for="colorPicker">Select the color:</label>
+            <input type="color" id="colorPicker" value="#ff0000">
+            
+            <label for="shapeSelector">Select the shape:</label>
+            <select id="shapeSelector">
+                <option value="line">Line</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="circle">Circle</option>
+            </select>
+            
+            <label for="lineWidth">Select the line width:</label>
+            <input type="number" id="lineWidth" value="10" min="1">
+        </div>
+        <canvas id="canvas"></canvas>
+        <script src="canvas.js"></script>
+    </body>
+</html>

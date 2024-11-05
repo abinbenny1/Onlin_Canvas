@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas {
+    border: 2px solid black;
+    display: block;
+    margin: 20px auto;
+}
+
+#controls {
+    text-align: center;
+    margin: 20px 0;
+}
